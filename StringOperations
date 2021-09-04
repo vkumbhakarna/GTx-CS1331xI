@@ -1,0 +1,16 @@
+public class StringOperations {
+    
+    //TODO: Start your code after this line
+    public static void main(String args[]){ 
+    String name = "Viraj";
+    String name1 = name.replace(name.charAt(0),'A');
+    String name2 = name1.replace(name1.charAt(-1),'Z');
+    System.out.println( name2 );
+    String addr = "www.edx.com";
+    System.out.println( addr );
+    int strt=addr.indexOf('.',0);
+    int end = addr.indexOf('.',-1);
+    System.out.println( add.substr(strt ,end) + '1331');
+    }
+    
+}
